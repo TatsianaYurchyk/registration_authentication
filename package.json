@@ -3,7 +3,7 @@
   "description": "task4",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
-    "start": "nodemon backend/src/server.ts"
+    "start": "node backend/src/server.ts"
 }
 
 
